@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pachete Evenimente | Event Pro - Planuri și Prețuri</title>
+    <meta name="description" content="Alege pachetul perfect pentru evenimentul tău: Basic, Gold sau Premium. Prețuri competitive și servicii complete pentru orice tip de eveniment.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/hero/EventPro.png" alt="Event Pro Logo" height="50">
+                <span class="brand-text">Event<span class="accent">Pro</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Acasă</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicii</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portofoliu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="packages.html">Pachete</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimoniale</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Pachete Evenimente</h1>
+            <div class="divider"></div>
+            <p>Alege planul perfect pentru evenimentul tău</p>
+        </div>
+    </section>
+
+    <!-- Tabs for Packages -->
+    <section class="packages-tabs py-4">
+        <div class="container">
+            <ul class="nav nav-tabs justify-content-center" id="packageTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#wedding" type="button">Nunți</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#corporate" type="button">Corporate</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#birthday" type="button">Aniversări</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="tab-content" id="packageTabContent">
+        <!-- Wedding Packages -->
+        <div class="tab-pane fade show active" id="wedding">
+            <div class="container py-4">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="package-card">
+                            <div class="package-header">
+                                <h3>Basic</h3>
+                                <div class="price">€2,500</div>
+                                <p>Până la 50 invitați</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Planificare eveniment</li>
+                                    <li><i class="fas fa-check"></i> Coordonator ziua evenimentului</li>
+                                    <li><i class="fas fa-check"></i> Selecție locație</li>
+                                    <li><i class="fas fa-check"></i> Fotograf 4 ore</li>
+                                    <li><i class="fas fa-times"></i> Decor floral</li>
+                                    <li><i class="fas fa-times"></i> Invitații personalizate</li>
+                                    <li><i class="fas fa-times"></i> Petrecere after-party</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-outline-primary">Alege Pachetul <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="package-card featured">
+                            <div class="popular-badge">Cel Mai Popular</div>
+                            <div class="package-header">
+                                <h3>Gold</h3>
+                                <div class="price">€5,000</div>
+                                <p>Până la 120 invitați</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Toate din Basic</li>
+                                    <li><i class="fas fa-check"></i> Decor floral complet</li>
+                                    <li><i class="fas fa-check"></i> Fotograf 8 ore + videograf</li>
+                                    <li><i class="fas fa-check"></i> Invitații personalizate</li>
+                                    <li><i class="fas fa-check"></i> Candy bar</li>
+                                    <li><i class="fas fa-check"></i> Foto booth</li>
+                                    <li><i class="fas fa-times"></i> Petrecere after-party</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-primary">Alege Pachetul <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="package-card">
+                            <div class="package-header">
+                                <h3>Premium</h3>
+                                <div class="price">€8,500</div>
+                                <p>Până la 200 invitați</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Toate din Gold</li>
+                                    <li><i class="fas fa-check"></i> Pianist în timpul cinei</li>
+                                    <li><i class="fas fa-check"></i> Trupa live petrecere</li>
+                                    <li><i class="fas fa-check"></i> Lumini ambientale</li>
+                                    <li><i class="fas fa-check"></i> Artificii final</li>
+                                    <li><i class="fas fa-check"></i> Cadou surpriză pentru cuplu</li>
+                                    <li><i class="fas fa-check"></i> Petrecere after-party</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-outline-primary">Alege Pachetul <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Corporate Packages -->
+        <div class="tab-pane fade" id="corporate">
+            <div class="container py-4">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="package-card">
+                            <div class="package-header">
+                                <h3>Basic Corporate</h3>
+                                <div class="price">€3,000</div>
+                                <p>Până la 50 persoane</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Închiriere sală conferințe</li>
+                                    <li><i class="fas fa-check"></i> Echipamente AV de bază</li>
+                                    <li><i class="fas fa-check"></i> Pauză cafea</li>
+                                    <li><i class="fas fa-check"></i> Materiale participanți</li>
+                                    <li><i class="fas fa-times"></i> Catering prânz</li>
+                                    <li><i class="fas fa-times"></i> Înregistrare participanți</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-outline-primary">Alege Pachetul</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="package-card featured">
+                            <div class="popular-badge">Recomandat</div>
+                            <div class="package-header">
+                                <h3>Gold Corporate</h3>
+                                <div class="price">€5,500</div>
+                                <p>Până la 150 persoane</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Toate din Basic</li>
+                                    <li><i class="fas fa-check"></i> Catering prânz complet</li>
+                                    <li><i class="fas fa-check"></i> Sistem sunet premium</li>
+                                    <li><i class="fas fa-check"></i> Foto eveniment</li>
+                                    <li><i class="fas fa-check"></i> Coffee break dublu</li>
+                                    <li><i class="fas fa-times"></i> Cazare speakeri</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-primary">Alege Pachetul</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="package-card">
+                            <div class="package-header">
+                                <h3>Premium Corporate</h3>
+                                <div class="price">€8,500</div>
+                                <p>Până la 300 persoane</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Toate din Gold</li>
+                                    <li><i class="fas fa-check"></i> Cazare speakeri 5*</li>
+                                    <li><i class="fas fa-check"></i> Gala festivă finală</li>
+                                    <li><i class="fas fa-check"></i> Echipa eveniment dedicată</li>
+                                    <li><i class="fas fa-check"></i> Cadouri participanți</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-outline-primary">Alege Pachetul</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Birthday Packages -->
+        <div class="tab-pane fade" id="birthday">
+            <div class="container py-4">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="package-card">
+                            <div class="package-header">
+                                <h3>Basic Party</h3>
+                                <div class="price">€1,500</div>
+                                <p>Până la 30 invitați</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Decor simplu</li>
+                                    <li><i class="fas fa-check"></i> Muzică fundal</li>
+                                    <li><i class="fas fa-check"></i> Tort aniversar</li>
+                                    <li><i class="fas fa-check"></i> Invitații online</li>
+                                    <li><i class="fas fa-times"></i> Fotograf profesionist</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-outline-primary">Alege Pachetul</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="package-card featured">
+                            <div class="popular-badge">Popular</div>
+                            <div class="package-header">
+                                <h3>Gold Party</h3>
+                                <div class="price">€3,000</div>
+                                <p>Până la 80 invitați</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Toate din Basic</li>
+                                    <li><i class="fas fa-check"></i> Decor tematic premium</li>
+                                    <li><i class="fas fa-check"></i> Fotograf 4 ore</li>
+                                    <li><i class="fas fa-check"></i> Foto booth</li>
+                                    <li><i class="fas fa-check"></i> Candy bar</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-primary">Alege Pachetul</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="package-card">
+                            <div class="package-header">
+                                <h3>Premium Party</h3>
+                                <div class="price">€5,000</div>
+                                <p>Până la 150 invitați</p>
+                            </div>
+                            <div class="package-body">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Toate din Gold</li>
+                                    <li><i class="fas fa-check"></i> Trupa live</li>
+                                    <li><i class="fas fa-check"></i> Lumini spectacol</li>
+                                    <li><i class="fas fa-check"></i> Videograf</li>
+                                    <li><i class="fas fa-check"></i> Surprize pentru invitați</li>
+                                </ul>
+                            </div>
+                            <div class="package-footer">
+                                <a href="contact.html" class="btn btn-outline-primary">Alege Pachetul</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="demo-countdown py-5 bg-light">
+        <div class="container text-center">
+            <h3>Ofertă Specială!</h3>
+            <p>Rezervă acum pachetul Gold și primești 10% reducere</p>
+            <div id="specialCountdown" class="countdown-timer small-countdown">
+                <div class="countdown-item"><span id="offerDays">00</span><span>Zile</span></div>
+                <div class="countdown-item"><span id="offerHours">00</span><span>Ore</span></div>
+                <div class="countdown-item"><span id="offerMinutes">00</span><span>Minute</span></div>
+                <div class="countdown-item"><span id="offerSeconds">00</span><span>Secunde</span></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-logo">
+                        <img src="img/hero/EventPro.png" alt="Event Pro" height="60">
+                        <p>Transformăm momentele tale speciale în amintiri de neuitat.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Linkuri Rapide</h4>
+                    <ul>
+                        <li><a href="index.html">Acasă</a></li>
+                        <li><a href="services.html">Servicii</a></li>
+                        <li><a href="portfolio.html">Portofoliu</a></li>
+                        <li><a href="packages.html">Pachete</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Str. Evenimentelor 123, Cahul</li>
+                        <li><i class="fas fa-phone"></i> +373 123 456 78</li>
+                        <li><i class="fas fa-envelope"></i> info@eventpro.md</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Program</h4>
+                    <ul>
+                        <li>Luni - Vineri: 09:00 - 18:00</li>
+                        <li>Sâmbătă: 10:00 - 15:00</li>
+                        <li>Duminică: Închis</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Event Pro. Toate drepturile rezervate. Designed by AAW 2331</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/countdown.js"></script>
+</body>
+</html>
