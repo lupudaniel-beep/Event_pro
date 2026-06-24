@@ -726,26 +726,3 @@ body {
     overflow: hidden;
 }
 
-.service-card,
-.package-card,
-.testimonial-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.service-card p,
-.package-card .package-body,
-.testimonial-card p {
-    flex: 1;
-}
-
-.service-card h3 {
-    min-height: 55px;
-}
-
-.portfolio-card img {
-    height: 250px;
-    object-fit: cover;
-    width: 100%;
-}
